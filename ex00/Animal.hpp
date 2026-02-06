@@ -14,11 +14,13 @@ class Animal
 		Animal(const Animal &copy);
 		Animal &operator=(const Animal &src);
 		virtual ~Animal();
+		// ~Animal();
 
 		std::string		getType(void) const;
 		void			setType(const std::string type);
 
 		virtual void	makeSound(void) const;
+		// void	makeSound(void) const;
 };
 
 #endif
